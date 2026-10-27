@@ -68,5 +68,3 @@ if source is not None:
 
     chart_df = pd.DataFrame({"probability": probs}, index=class_names)
     st.bar_chart(chart_df, color="#9b7fd4")
-
-    st.caption("This is a guess. The model is right about half of the time, and it works best on close-up faces.")
