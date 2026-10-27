@@ -2,6 +2,8 @@
 
 A small deep learning project that guesses a person's age group from a photo of their face. A convolutional neural network (CNN) is trained on the UTKFace dataset in a Jupyter notebook, then served through a Streamlit web app where you can upload an image or take a photo with your camera.
 
+**Live demo:** https://agepredictionapp1.streamlit.app/
+
 ## Age groups
 
 The model sorts each face into one of six classes:
